@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 .template{
-    height: 40vh;
+    height: 50vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -67,9 +67,11 @@ nav a:hover{
 .template div{
     display: inline-block;
     padding: 10px 20px;
-    background-color: rgb(36, 130, 207);
+    background-color: rgb(81, 158, 221);
     align-items: center;
     color: white;
+    font-weight: 100;
+    font-size: 14px;
 }
 
 .about{
@@ -84,9 +86,9 @@ nav a:hover{
 }
 
 .about h3{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 100;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1mm;
 }
 
 .about p{
@@ -104,7 +106,8 @@ nav a:hover{
 
 .team h3{
     font-weight: 100;
-    letter-spacing: 1px;
+    font-size: 20px;
+    letter-spacing: 0.1mm;
     opacity: 0.8;
 }
 .team p{
@@ -126,11 +129,11 @@ nav a:hover{
     justify-content: center;
     overflow: hidden; 
     padding: 30px 0 0 0;
-    gap: 15px;
+    gap: 30px;
 }
 .box div {
-    padding: 30px 50px;
-    border-radius: 20px;
+    padding: 30px;
+    border-radius: 10px;
     font-weight: 300;
     opacity: 0.7;
     font-size: 15px;
